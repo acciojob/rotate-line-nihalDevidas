@@ -1,1 +1,24 @@
 /*  your css code here. If applicable */
+body{
+	position:relative;
+	
+}
+.divPro{
+	background-color: black;
+    width : 200px;
+    height: 2px;
+
+	position:absolute;
+	top: 100px;
+	left:40px;
+	animation: rotato 2s linear 0.3s infinite ;
+}
+
+@keyframes rotato{
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(360deg);
+	}
+}
